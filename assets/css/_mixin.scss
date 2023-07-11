@@ -1,0 +1,50 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+}
+@mixin a-list{
+    padding: 0 0 0 30px;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+@mixin text-decoration{
+    text-decoration: none;
+}
+@mixin heading-into{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+@mixin book-a-table-btn{
+    border: 2px solid #cda45e;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+@mixin background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin heading-font{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    color: #fff;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
