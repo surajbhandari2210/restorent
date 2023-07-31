@@ -172,9 +172,10 @@
             }
         }
     }
+
     .nav-click {
-        i{
-            font-size: 30px!important;
+        i {
+            font-size: 30px !important;
         }
     }
 
@@ -656,9 +657,11 @@
 
     .chef-row {
         padding-top: $padding4;
-        .chef-image{
+
+        .chef-image {
             position: relative;
             overflow: hidden;
+
             .hover-effect {
                 position: absolute;
                 background-color: rgba(0, 0, 0, .8);
@@ -669,13 +672,15 @@
                 left: 0;
                 transform: translateY(100%);
                 transition: .7s;
+
                 i {
                     font-size: $font9;
                     color: $white;
                 }
             }
-            &:hover{
-                .hover-effect{
+
+            &:hover {
+                .hover-effect {
                     transform: translateY(0);
                 }
             }
@@ -944,29 +949,41 @@
 
 // RWD PART START
 @media screen and (max-width:340px) {
-.text-over{
-    h3{
-        font-size: 22px;
+    // .text-over {
+    //     h3 {
+    //         font-size: 22px;
+    //     }
+    // }
+
+    .main-heading {
+        h1 {
+            font-size: 34px !important;
+        }
     }
 }
-.main-heading{
-    h1{
-        font-size: 34px!important;
-    }
-}
-}
+
 @media screen and (max-width:768px) {
+    .text-over {
+        h3 {
+            font-size: 22px !important;
+        }
+    }
+      .intro-text {
+            font-size: 19px !important;
+        }
 
 }
 
 @media screen and (min-width:992px) {
     .nav-click {
         display: none;
-        i{
-            font-size: 50px!important;
+
+        i {
+            font-size: 50px !important;
         }
     }
 }
+
 @media screen and (max-width:992px) {
     .table-btn {
         display: none;
@@ -987,6 +1004,9 @@
     .header-wrapper {
         display: flex;
         justify-content: space-between;
+    }
+    .navbar-items ul li ul{
+        width: 100%!important;
     }
 
     .nav-content {
@@ -1036,4 +1056,3 @@
         background-attachment: fixed;
     }
 }
-

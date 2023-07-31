@@ -972,11 +972,17 @@
 }
 
 @media screen and (max-width: 340px) {
-  .text-over h3 {
-    font-size: 22px;
-  }
   .main-heading h1 {
     font-size: 34px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-over h3 {
+    font-size: 22px !important;
+  }
+  .intro-text {
+    font-size: 19px !important;
   }
 }
 
@@ -1009,6 +1015,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .navbar-items ul li ul {
+    width: 100% !important;
   }
   .nav-content {
     display: -webkit-box;
